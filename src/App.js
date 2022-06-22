@@ -4,7 +4,7 @@ import Commnets from './Comments';
 import Likes from './Likes';
 import Spin from './Spin';
 import Title from './Title';
-
+import sea from './img/sea.jpg'
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             </div>
           )}
           <div className="card-image">
-            <img src="./sea.jpg" alt="surfing"/>
+            <img src={sea} alt="surfing"/>
             <Title />
             <Likes />
           </div>
